@@ -23,7 +23,7 @@ def reduce_to_total(array)
   [1, 2, 3].reduce { |sum, n| sum + n }
 end
 p reduce_to_total(0)
-#p reduce_to_total(100)
+p reduce_to_total(100)
 
    
 
