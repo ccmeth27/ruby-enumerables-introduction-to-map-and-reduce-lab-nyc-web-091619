@@ -25,7 +25,9 @@ end
 reduce_to_total([1, 2, 3])
 
 def reduce_to_total(array, starting_point)
-  array.reduce()
+  array.reduce(0) { |sum, starting_point| sum + starting_point }
+end
+reduce_to_total([1, 2, 3], 100)
 
 
 
