@@ -19,11 +19,12 @@ def map_to_square(array)
 end
 map_to_square([1, 2, 3, -9])
 
-def reduce_to_total(array)
-  array.reduce(0, :+)
+def reduce_to_total(source_array, starting_point)
+  source_array = [1, 2, 3]
+  source_array.reduce(0, :+)
 end
-reduce_to_total([1, 2, 3])
-reduce_to_total([1, 2, 3], 100)
+reduce_to_total
+reduce_to_total(100)
 
    
 
