@@ -24,3 +24,9 @@ map_to_square([1, 2, 3, -9])
 def reduce_to_total(array)
   array.reduce { }
 end
+reduce_to_total([1, 2, 3])
+
+
+
+
+
