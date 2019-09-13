@@ -25,7 +25,7 @@ end
 reduce_to_total(0)
 reduce_to_total(100)
 
-   
+def reduce_to_all_true()
 
 
 
