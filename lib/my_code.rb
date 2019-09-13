@@ -31,5 +31,9 @@ end
 reduce_to_all_true([1, 2, true, "razmatazz"])
 reduce_to_all_true([1, 2, true, "razmatazz", false])
 
+def reduce_to_any_true(source_array)
+  source_array.any? { |e| !!e }
+end
+reduce_to_any_true()
 
 
