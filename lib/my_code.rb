@@ -1,9 +1,7 @@
-
 def map_to_negativize(array)
   array.map { |n| -n }
 end
 map_to_negativize([1, 2, 3, -9])
-
 
 def map_to_no_change(array)
   #dune = ["paul", "gurney", "vladimir", "jessica", "chani"]
@@ -26,7 +24,8 @@ def reduce_to_total(array)
 end
 reduce_to_total([1, 2, 3])
 
-
+def reduce_to_total(array, starting_point)
+  array.reduce()
 
 
 
