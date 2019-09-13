@@ -4,7 +4,7 @@ def map_to_negativize(array)
 end
 map_to_negativize([1, 2, 3, -9])
 
-def map_to_no_change
+def map_to_no_change(var)
   dune = ["paul", "gurney", "vladimir", "jessica", "chani"]
 end
 map_to_no_change(dune)
