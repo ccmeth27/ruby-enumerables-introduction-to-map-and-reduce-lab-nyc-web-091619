@@ -20,8 +20,7 @@ end
 map_to_square([1, 2, 3, -9])
 
 def reduce_to_total(array, num)
-  #source_array = [1, 2, 3]
-  array.reduce(:+) { |sum, num| sum + num }
+  [1, 2, 3].reduce(:+) { |sum, num| sum + num }
 end
 p reduce_to_total([1, 2, 3])
 p reduce_to_total([1, 2, 3], 100)
