@@ -1,7 +1,7 @@
 
 
 def map_to_negativize(array)
-  array.map
+  array.map { |n| -n }
 end
 map_to_negativize([1, 2, 3, -9])
 
