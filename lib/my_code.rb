@@ -11,6 +11,6 @@ def map_to_no_change(array)
 end
 map_to_no_change(["paul", "gurney", "vladimir", "jessica", "chani"])
 
-def map_to_double
-  
+def map_to_double(array)
+  array.map { |n| n * 2 }
 end
