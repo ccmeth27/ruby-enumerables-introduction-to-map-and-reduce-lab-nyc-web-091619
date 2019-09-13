@@ -19,7 +19,7 @@ def map_to_square(array)
 end
 map_to_square([1, 2, 3, -9])
 
-def reduce_to_total(array, starting_point)
+def reduce_to_total(array, num)
   #source_array = [1, 2, 3]
   array.reduce(0) { |sum, num| sum + num }
 end
