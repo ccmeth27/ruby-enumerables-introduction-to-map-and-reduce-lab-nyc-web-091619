@@ -26,7 +26,7 @@ reduce_to_total(0)
 reduce_to_total(100)
 
 def reduce_to_all_true(source_array)
-  source_array.reduce(0) { |e| !!e }
+  source_array.reduce(0 :+) { |e| !!e }
 end
 reduce_to_all_true([1, 2, true, "razmatazz"])
 reduce_to_all_true([1, 2, true, "razmatazz", false])
