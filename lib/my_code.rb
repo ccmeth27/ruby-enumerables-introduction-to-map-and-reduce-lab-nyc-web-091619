@@ -35,6 +35,6 @@ def reduce_to_any_true(source_array)
   source_array.any? { |e| !!e }
 end
 reduce_to_any_true([ false, nil, nil, nil, true])
-reduce_to_any_true()
+reduce_to_any_true([ false, nil, nil, nil])
 
 
