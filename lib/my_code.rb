@@ -22,8 +22,8 @@ map_to_square([1, 2, 3, -9])
 def reduce_to_total(array)
   [1, 2, 3].reduce { |sum, n| sum + n }
 end
-p reduce_to_total(0)
-p reduce_to_total(100)
+reduce_to_total(0)
+reduce_to_total(100)
 
    
 
