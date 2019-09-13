@@ -6,6 +6,7 @@ map_to_negativize([1, 2, 3, -9])
 
 def map_to_no_change(var)
   dune = ["paul", "gurney", "vladimir", "jessica", "chani"]
+  dune.each
 end
 map_to_no_change(dune)
 
