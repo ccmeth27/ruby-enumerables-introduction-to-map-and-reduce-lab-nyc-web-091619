@@ -15,3 +15,6 @@ def map_to_double(array)
   array.map { |n| n * 2 }
 end
 map_to_double([1, 2, 3, -9])
+
+def map_to_square(array)
+  array.map { |n| n * n }
