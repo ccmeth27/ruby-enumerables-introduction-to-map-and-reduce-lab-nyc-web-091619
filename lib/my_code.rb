@@ -24,7 +24,7 @@ def reduce_to_total(array, num)
   array.reduce(0) { |sum, num| sum + num }
 end
 p reduce_to_total([1, 2, 3])
-p reduce_to_total([1, 2, 3}, 100)
+p reduce_to_total([1, 2, 3], 100)
 
    
 
